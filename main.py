@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 import requests
 import json
-import locale
 from datetime import datetime, timedelta
 
 @app.route('/')
